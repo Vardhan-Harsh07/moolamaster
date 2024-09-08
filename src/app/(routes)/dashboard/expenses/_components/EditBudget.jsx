@@ -15,8 +15,8 @@ import {
 import EmojiPicker from "emoji-picker-react";
 import { useUser } from "@clerk/nextjs";
 import { Input } from "@/components/ui/input";
-import { db } from "@/utils/dbConfig";
-import { Budgets } from "@/utils/schema";
+import { db } from "../../../../../../utils/dbconfig";
+import { Budgets } from "../../../../../../utils/schema";
 import { eq } from "drizzle-orm";
 import { toast } from "sonner";
 function EditBudget({ budgetInfo, refreshData }) {

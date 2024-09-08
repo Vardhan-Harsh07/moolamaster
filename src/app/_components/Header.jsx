@@ -7,7 +7,7 @@ import { useUser, UserButton } from '@clerk/nextjs'
 import Link from 'next/link'
 
 function Header() {
-    const { user, isSignedIn } = useUser();
+    const { isSignedIn } = useUser();
 
     return (
         <div className='p-5 flex justify-between items-center border shadow-sm'>
@@ -22,8 +22,6 @@ function Header() {
                 </Button>
             </Link>
             {isSignedIn ? (
-                <UserButton />
-            ) : (
                 <div className='flex gap-3 items-center'>
                     <Link href='/dashboard'>
                         <Button 
@@ -32,9 +30,20 @@ function Header() {
                             Dashboard
                         </Button>
                     </Link> 
-                    <Link href='/dashboard'>
+                    <UserButton /> {/* Shows user options when signed in */}
+                </div>
+            ) : (
+                <div className='flex gap-3 items-center'>
+                    <Link href='/dashboard'> {/* Dashboard for non-signed-in users */}
                         <Button 
-                            className='  rounded-full transition-transform duration-300 ease-in-out transform hover:-translate-y-1'>
+                            variant='outline' 
+                            className='rounded-full transition-transform duration-300 ease-in-out transform hover:-translate-y-1'>
+                            Dashboard
+                        </Button>
+                    </Link> 
+                    <Link href='/sign-in'> {/* Get Started links to sign-in/sign-up page */}
+                        <Button 
+                            className='rounded-full transition-transform duration-300 ease-in-out transform hover:-translate-y-1'>
                             Get Started
                         </Button>
                     </Link>
