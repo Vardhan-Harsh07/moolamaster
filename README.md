@@ -70,10 +70,6 @@ moolamaster/
 
 ---
 
-## 🖼️ Screenshots
-*(Add screenshots of the dashboard and features here)*
-
----
 
 ## 🔒 Security Features
 - Secure database queries using Drizzle ORM.
@@ -100,9 +96,4 @@ Feel free to fork this repository and contribute!
 
 ## 📜 License
 This project is licensed under the **MIT License**.
-
----
-
-## 📬 Connect
-**GitHub**: [Aryan Srivastava](https://github.com/aryanxsrivastava)  
-**LinkedIn**: [Aryan Srivastava](https://www.linkedin.com/in/aryan-srivastava-35112a247/)  
+ 
