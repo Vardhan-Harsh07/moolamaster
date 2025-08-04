@@ -1,36 +1,108 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💰 MoolaMaster – Financial Management Tool
 
-## Getting Started
+A **personal finance management application** designed to help users track their expenses, manage budgets, and visualize financial analytics. Built with **Node.js**, **JavaScript**, and **Drizzle ORM** for secure and efficient data handling.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🌐 Live Demo
+Coming Soon!
+
+---
+
+## 🚀 Features
+
+- ✅ **Expense Tracking** – Add, view, and manage your expenses with detailed categories.
+- ✅ **Budget Management** – Set budgets and monitor spending habits.
+- ✅ **Analytics Dashboard** – Visualize spending trends through charts and graphs.
+- ✅ **Secure Backend APIs** – Built using Node.js and Drizzle ORM for efficient database integration.
+- ✅ **Responsive UI** – Optimized for both desktop and mobile devices.
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology       | Purpose                                  |
+|------------------|------------------------------------------|
+| **Node.js**      | Backend API and server-side logic       |
+| **Drizzle ORM**  | Database management and queries         |
+| **JavaScript**   | Core logic and functionality            |
+| **Express.js**   | Web server for API handling             |
+| **SQLite / MySQL** | Database support                      |
+
+---
+
+## 📂 Project Structure
+
+```
+moolamaster/
+├── controllers/      # Business logic
+├── routes/           # API endpoints
+├── models/           # Database schema with Drizzle ORM
+├── public/           # Static assets
+├── views/            # UI templates (if any)
+├── app.js            # Main server file
+└── package.json      # Project metadata and dependencies
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## ⚙️ Installation & Setup
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Vardhan-Harsh07/moolamaster.git
+   cd moolamaster
+   ```
 
-## Learn More
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. **Configure the database**
+   - Update the database settings in `.env` file.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Run the application**
+   ```bash
+   npm start
+   ```
+   The app will run on `http://localhost:3000`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🖼️ Screenshots
+*(Add screenshots of the dashboard and features here)*
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🔒 Security Features
+- Secure database queries using Drizzle ORM.
+- Input validation to prevent SQL injection and XSS attacks.
+- Environment variables for sensitive configurations.
+
+---
+
+## 📈 Future Enhancements
+- ✅ Add **user authentication** with JWT.
+- ✅ Implement **data export** (CSV, PDF).
+- ✅ Add **multi-currency support**.
+- ✅ Deploy on cloud (Heroku, Vercel).
+
+---
+
+## 🤝 Contributing
+Feel free to fork this repository and contribute!  
+- ⭐ Star the repo if you like the project  
+- 🐛 Open issues for bugs or feature requests  
+- 🔀 Submit pull requests for improvements  
+
+---
+
+## 📜 License
+This project is licensed under the **MIT License**.
+
+---
+
+## 📬 Connect
+**GitHub**: [Aryan Srivastava](https://github.com/aryanxsrivastava)  
+**LinkedIn**: [Aryan Srivastava](https://www.linkedin.com/in/aryan-srivastava-35112a247/)  
